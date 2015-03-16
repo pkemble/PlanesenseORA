@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<risk-factors>
+    <ora-items>
+        <OraItem name="Destination/International Legs">Destination/International Legs
+            <category>0</category>
+            <RiskFactorGreen name="USA" factor="0">USA</RiskFactorGreen>
+            <RiskFactorYellow name="Canada" factor="1">Canada</RiskFactorYellow>
+            <RiskFactorOrange name="Bahamas" factor="2">Bahamas</RiskFactorOrange>
+            <RiskFactorRed name="Mexico" factor="3">Mexico</RiskFactorRed>
+        </OraItem>
+        <OraItem name="Crewmembers/Non Routine Flt Ops">
+            <category>0</category>
+            <RiskFactorGreen name="Normal PS Crew" factor="0">Normal PS Crew</RiskFactorGreen>
+            <RiskFactorYellow name="Single Pilot" factor="2">Single Pilot</RiskFactorYellow>
+            <RiskFactorOrange name="Dual (with owner)" factor="4">Dual (with owner)</RiskFactorOrange>
+        </OraItem>
+        <OraItem name="Start of Duty Period">
+            <category>1</category>
+            <RiskFactorGreen name="0601-1400 lcl" factor="0">0601-1400</RiskFactorGreen>
+            <RiskFactorYellow name="1401-2000 lcl" factor="2">1401-2000</RiskFactorYellow>
+            <RiskFactorOrange name="2001-0600 lcl" factor="4">2001-0600</RiskFactorOrange>
+        </OraItem>
+        <OraItem name="Scheduled Duty Hours">
+            <category>1</category>
+            <RiskFactorGreen name="less than 10 hrs" factor="0">less than 10 hrs</RiskFactorGreen>
+            <RiskFactorYellow name="10-12 hrs" factor="2">10-12 hrs</RiskFactorYellow>
+            <RiskFactorOrange name="12-14 hrs" facotr="4">12-14 hrs</RiskFactorOrange>
+        </OraItem>
+        <OraItem name="Number of Legs in FDP">
+            <category>1</category>
+            <RiskFactorGreen name="less or equal 5" factor="0">ls/eq 5</RiskFactorGreen>
+            <RiskFactorYellow name="6" factor="2">6</RiskFactorYellow>
+            <RiskFactorOrange name="7" factor="4">7</RiskFactorOrange>
+            <RiskFactorRed name="8" factor="6">8</RiskFactorRed>
+        </OraItem>
+        <!--<Category name="Environment - Airport/ATC/Ground Services, Hours of Operation, WX/Terrain/Operational Hazards, Airspace/Airport Restrictions" level="2">-->
+        <!--<RunwayLength name="Runway Length">-->
+        <!--<OverFive name="gtr 5000'" factor="0"/>-->
+        <!--<ThreeToFour name="3000-4000'" factor="1"/>-->
+        <!--<UnderThree name="less than 3000'" factor="2"/>-->
+        <!--</RunwayLength>-->
+
+        <!--</Category>-->
+        <!--<Category name="Crew - Individual Crew Factors/Fatigue" level="3">-->
+
+        <!--</Category>-->
+    </ora-items>
+    <categories>
+        <category-item level="0">Type of Operation and Equipment</category-item>
+        <category-item level="1">Timeline - Start time, Length of Scheduled Day, Previous Days, Tempo</category-item>
+
+    </categories>
+</risk-factors>
